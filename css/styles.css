@@ -10189,13 +10189,24 @@ div.portfolio-left{
 
 img.frame-work{
 width: 200px;
-margin-left: 80px;
+height: 200px;
 margin-bottom: 30px;
 }
 
+.degital-framework{
+ margin-left: 100px;
+}
+
+h5.fram-work-p{
+  padding-left: 30px;
+  font-size: 14px;
+}
+
 .portfolio-bottom{
+  width: 80%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .live-btn{
@@ -10224,7 +10235,6 @@ margin-bottom: 30px;
   border: none;
 }
 
-
 .live-btn:hover {
   background-color: #d6370c;
   border: none;
@@ -10235,7 +10245,7 @@ margin-bottom: 30px;
 }
 
 .portfolio-right{
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .brands{
@@ -10254,11 +10264,11 @@ img.footer-icons{
 } 
 
 
-@media (max-width: 576px){
+@media (max-width: 768px){
   .portfolio-box{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 150px;
   }
 
 img.portfolio-img{
@@ -10275,7 +10285,7 @@ img.frame-work{
 }
 
  button.live-btn{
-    margin-left: 100px;
+    margin-left: 150px;
   }
 
  .portfolio-h2{
@@ -10292,4 +10302,13 @@ img.frame-work{
   justify-content: center;
   align-items: center;
 }
+}
+
+@media (max-width: 634px){
+  .portfolio-box{
+    margin-left: 100px;
+  }
+  button.live-btn{
+    margin-left: 130px;
+  }
 }
