@@ -564,9 +564,14 @@ pre code {
   width: 20%;
  }
 
+
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+  }
+  button.live-btn{
+    margin-left: 60px;
   }
 }
 @media (min-width: 768px) {
@@ -5407,6 +5412,7 @@ a.close.disabled {
   transition: transform 0.3s ease-out;
   transform: translate(0, -50px);
 }
+
 @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
     transition: none;
@@ -9709,6 +9715,7 @@ button.bg-dark:focus {
   .text-sm-center {
     text-align: center !important;
   }
+
 }
 @media (min-width: 768px) {
   .text-md-left {
@@ -10099,6 +10106,11 @@ header.masthead {
 header.masthead h1 {
   font-size: 2.25rem;
 }
+
+header.masthead h1 #jap{
+  font-size: 2rem;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -10106,12 +10118,19 @@ header.masthead h1 {
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
+
+ 
   header.masthead p {
     font-size: 1.15rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
+
+  header.masthead h1 #jp{
+    font-size: 2rem;
+  }
+
 }
 @media (min-width: 1200px) {
   header.masthead h1 {
@@ -10312,3 +10331,4 @@ img.frame-work{
     margin-left: 130px;
   }
 }
+
